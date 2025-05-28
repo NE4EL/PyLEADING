@@ -7,6 +7,3 @@ def bubblesort(arr):
 
 def selectionsort(arr):
     pass
-
-
-
