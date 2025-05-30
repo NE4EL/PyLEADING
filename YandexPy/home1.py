@@ -18,17 +18,25 @@
 #     print(i)
 
 # C Задание
-l = int(input())
-val = int(input())
-arr = []
+# l = int(input())
+# val = int(input())
+# arr = []
+#
+# for i in range(val):
+#     string = input()
+#     arr.append(string)
+#
+#
+# for i in arr:
+#     if len(i) > l:
+#         print(i[:l] + "...")
+#     else:
+#         print(i)
 
-for i in range(val):
-    string = input()
-    arr.append(string)
+# D Задание
 
-
-for i in arr:
-    if len(i) > l:
-        print(i[:l] + "...")
-    else:
-        print(i)
+while string := input():
+    if string[-3:] != '@@@':
+        if string[0:2] == '##':
+            string = string[2:]
+        print(string)
