@@ -34,9 +34,37 @@
 #         print(i)
 
 # D Задание
+#
+# while string := input():
+#     if string[-3:] != '@@@':
+#         if string[0:2] == '##':
+#             string = string[2:]
+#         print(string)
 
-while string := input():
-    if string[-3:] != '@@@':
-        if string[0:2] == '##':
-            string = string[2:]
-        print(string)
+# E Задание
+#
+# text = input()
+#
+# if text == text[::-1]:
+#     print("YES")
+# else:
+#     print("NO")
+
+# F Задание
+#
+# num = int(input())
+# mas = []
+#
+# for i in range(num):
+#     mas.append(input())
+# text = " ".join(mas)
+# print(text.count("зайка"))
+
+# G Задание
+#
+# text = input()
+# text = text.split()
+# num = 0
+# for i in text:
+#     num += int(i)
+# print(num)
