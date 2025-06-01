@@ -1,4 +1,12 @@
-Для созранения файла и дальнейшего пуша нужно:
-1. сохранить все локально git add .
-2. сделать комит git commit -m "Что-то"
-3. отправить все git push
+Действие                Команда
+
+Создать ветку           git checkout -b my-feature
+Добавить изменения      git add .
+Закоммитить             git commit -m "Описание"
+Отправить               git push -u origin my-feature
+Слить с main            git checkout main → git merge my-feature → git push
+
+как все сделал
+
+git branch -d my-feature
+git push origin --delete my-feature
