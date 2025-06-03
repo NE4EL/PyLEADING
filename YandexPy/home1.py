@@ -80,17 +80,8 @@
 #         print("Заек нет =(")
 
 # I Задание
-def binar():
-    pass
-
-mas = []
-
-while True:
-    text = input()
-    if text == "":
-        break
-    else:
-        mas.append(text)
-
-for text in mas:
-    if text.find("#") != -1:
+while string := input(): # моржовой оператор, присваиваются значения прям в конструкции
+    if not (pos := string.find('#')) + 1:
+        print(string)
+    elif string[:pos]:
+        print(string[:pos])

@@ -3,7 +3,7 @@ def binarySearch(sortarr, value):
     high = len(sortarr)-1
 
     while low <= high:
-        mid = (low+high)//2
+        mid = (low+high)//2 # проверяется средний элемент каждый раз
         guess = sortarr[mid]
         if guess == value:
             return mid
