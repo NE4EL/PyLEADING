@@ -34,7 +34,6 @@
 #         print(i)
 
 # D Задание
-#
 # while string := input():
 #     if string[-3:] != '@@@':
 #         if string[0:2] == '##':
@@ -42,7 +41,6 @@
 #         print(string)
 
 # E Задание
-#
 # text = input()
 #
 # if text == text[::-1]:
@@ -51,7 +49,6 @@
 #     print("NO")
 
 # F Задание
-#
 # num = int(input())
 # mas = []
 #
@@ -61,7 +58,6 @@
 # print(text.count("зайка"))
 
 # G Задание
-#
 # text = input()
 # text = text.split()
 # num = 0
@@ -70,7 +66,6 @@
 # print(num)
 
 # H Задание
-#
 # mas = []
 #
 # for i in range(int(input())):
@@ -83,3 +78,19 @@
 #         print(val + 1)
 #     else:
 #         print("Заек нет =(")
+
+# I Задание
+def binar():
+    pass
+
+mas = []
+
+while True:
+    text = input()
+    if text == "":
+        break
+    else:
+        mas.append(text)
+
+for text in mas:
+    if text.find("#") != -1:
