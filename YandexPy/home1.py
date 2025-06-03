@@ -69,4 +69,17 @@
 #     num += int(i)
 # print(num)
 
-# bla bla bla
+# H Задание
+#
+# mas = []
+#
+# for i in range(int(input())):
+#     text = input()
+#     mas.append(text)
+#
+# for text in mas:
+#     val = text.find("зайка")
+#     if val != -1:
+#         print(val + 1)
+#     else:
+#         print("Заек нет =(")
